@@ -1,0 +1,180 @@
+2018/02/03 13:34:28.264  INFO: COSMOS Version: 4.1.1
+2018/02/03 13:34:28.328  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/02/03 13:34:28.463  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/02/03 13:34:28.471  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/02/03 13:34:28.512  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/02/03 13:34:28.542  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/02/03 13:34:30.031  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/02/03 13:34:30.033  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:34:30.034  INFO: Creating thread for interface UPBOARD_INT
+2018/02/03 13:34:30.035  INFO: Creating thread for interface SYSTEM_INT
+2018/02/03 13:34:30.037  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 13:34:30.037  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/02/03 13:34:30.038  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/02/03 13:34:30.039  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:34:30.039  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/02/03 13:34:30.045  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/02/03 13:34:30.045  INFO: Starting packet reading for UPBOARD_INT
+2018/02/03 13:34:30.046  INFO: Connecting to UPBOARD_INT...
+2018/02/03 13:34:30.046  INFO: Starting packet reading for SYSTEM_INT
+2018/02/03 13:34:30.046  INFO: Connecting to SYSTEM_INT...
+2018/02/03 13:34:30.046  INFO: SYSTEM_INT Connection Success
+2018/02/03 13:34:30.092  INFO: UPBOARD_INT Connection Success
+2018/02/03 13:34:30.134  ERROR: UPBOARD_INT - Unknown 1 byte packet starting: 00
+2018/02/03 13:34:30.146  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_13_34_30_tlm.bin
+2018/02/03 13:35:01.165  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 13 but defined length of 15
+2018/02/03 13:35:01.308  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:01.498  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 13:35:01.642  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:01.852  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 13:35:01.937  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:02.186  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:02.273  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:02.524  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:02.607  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:02.849  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 13:35:02.941  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:02.992  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:03.194  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 56 but defined length of 15
+2018/02/03 13:35:03.248  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:03.339  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:03.532  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:03.657  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:03.857  ERROR: UPBOARD_INT - Unknown 11 byte packet starting: 0000000000000000000000
+2018/02/03 13:35:03.992  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:04.182  ERROR: UPBOARD GPS received with actual packet length of 11 but defined length of 16
+2018/02/03 13:35:04.319  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:04.518  ERROR: UPBOARD GPS received with actual packet length of 28 but defined length of 16
+2018/02/03 13:35:04.639  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:04.856  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:04.961  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:05.194  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:05.308  ERROR: UPBOARD GPS received with actual packet length of 32 but defined length of 16
+2018/02/03 13:35:05.527  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:05.621  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:05.674  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:05.886  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:35:05.960  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:06.012  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:06.199  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:35:06.263  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:06.335  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:06.541  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:06.700  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:06.873  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 13:35:06.989  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:07.211  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 13:35:07.316  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:07.558  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:07.643  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:07.886  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:07.978  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:08.030  ERROR: UPBOARD IMU received with actual packet length of 60 but defined length of 43
+2018/02/03 13:35:08.219  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:35:08.334  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:08.355  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:08.557  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:35:08.630  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:08.693  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:08.885  ERROR: UPBOARD IMU received with actual packet length of 56 but defined length of 43
+2018/02/03 13:35:09.032  ERROR: UPBOARD GPS received with actual packet length of 32 but defined length of 16
+2018/02/03 13:35:09.221  ERROR: UPBOARD GPS received with actual packet length of 11 but defined length of 16
+2018/02/03 13:35:09.370  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:09.560  ERROR: UPBOARD GPS received with actual packet length of 11 but defined length of 16
+2018/02/03 13:35:09.667  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:09.891  ERROR: UPBOARD GPS received with actual packet length of 28 but defined length of 16
+2018/02/03 13:35:09.996  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:10.249  ERROR: UPBOARD IMU received with actual packet length of 56 but defined length of 43
+2018/02/03 13:35:10.323  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:10.565  ERROR: UPBOARD_INT - Unknown 11 byte packet starting: 0000000000000000000000
+2018/02/03 13:35:10.690  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:10.711  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:10.901  ERROR: UPBOARD GPS received with actual packet length of 12 but defined length of 16
+2018/02/03 13:35:11.016  ERROR: UPBOARD IMU received with actual packet length of 59 but defined length of 43
+2018/02/03 13:35:11.047  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:11.235  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:35:11.316  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:11.381  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:11.579  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:11.716  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:11.905  ERROR: UPBOARD IMU received with actual packet length of 56 but defined length of 43
+2018/02/03 13:35:12.056  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:12.244  ERROR: UPBOARD GPS received with actual packet length of 11 but defined length of 16
+2018/02/03 13:35:12.360  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:12.579  ERROR: UPBOARD GPS received with actual packet length of 11 but defined length of 16
+2018/02/03 13:35:12.695  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:12.917  ERROR: UPBOARD GPS received with actual packet length of 28 but defined length of 16
+2018/02/03 13:35:13.047  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:13.257  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 13:35:13.362  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:13.415  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:13.623  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 56 but defined length of 15
+2018/02/03 13:35:13.697  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:13.729  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:13.937  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:14.068  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:14.277  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:14.401  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:14.618  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:14.714  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:14.949  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:15.044  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:15.280  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:15.379  ERROR: UPBOARD GPS received with actual packet length of 32 but defined length of 16
+2018/02/03 13:35:15.606  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:15.719  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:15.752  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:15.944  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:35:16.053  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:16.089  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:16.296  ERROR: UPBOARD IMU received with actual packet length of 57 but defined length of 43
+2018/02/03 13:35:16.351  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:16.422  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:16.629  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:16.755  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:16.965  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:17.096  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:17.302  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:17.396  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:17.637  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:17.726  ERROR: UPBOARD GPS received with actual packet length of 32 but defined length of 16
+2018/02/03 13:35:17.974  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:18.070  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 13:35:18.094  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:18.289  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:35:18.413  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:18.447  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:18.629  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:35:18.765  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/02/03 13:35:18.975  ERROR: UPBOARD IMU received with actual packet length of 56 but defined length of 43
+2018/02/03 13:35:19.110  ERROR: UPBOARD GPS received with actual packet length of 32 but defined length of 16
+2018/02/03 13:35:19.310  ERROR: UPBOARD GPS received with actual packet length of 11 but defined length of 16
+2018/02/03 13:35:19.423  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:19.677  ERROR: UPBOARD GPS received with actual packet length of 11 but defined length of 16
+2018/02/03 13:35:19.767  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:19.988  ERROR: UPBOARD GPS received with actual packet length of 28 but defined length of 16
+2018/02/03 13:35:20.087  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:20.348  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 13:35:20.444  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:20.509  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:35:20.555  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_13_34_30_tlm.bin
+2018/02/03 13:35:20.556  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/02/03 13:35:20.556  INFO: Connection Lost for SYSTEM_INT
+2018/02/03 13:35:20.657  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/02/03 13:35:20.658  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/02/03 13:35:20.658  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/02/03 13:35:20.678  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 13:35:20.685  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 11 but defined length of 15
+2018/02/03 13:35:20.688  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/02/03 13:35:20.689  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:35:20.689  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:35:20.752  ERROR: UPBOARD IMU received with actual packet length of 60 but defined length of 43
+2018/02/03 13:35:20.774  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:35:20.795  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 13:35:20.913  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/02/03 13:35:20.913  INFO: Connection Lost for UPBOARD_INT
+2018/02/03 13:35:20.913  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 13:35:20.922  INFO: Disconnected from interface UPBOARD_INT
+2018/02/03 13:35:20.922  INFO: Killing thread for interface SYSTEM_INT
+2018/02/03 13:35:20.929  INFO: Stopped packet reading for SYSTEM_INT
+2018/02/03 13:35:20.933  INFO: Disconnected from interface SYSTEM_INT

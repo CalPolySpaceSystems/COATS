@@ -1,0 +1,101 @@
+2018/02/03 13:49:00.854  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/02/03 13:49:00.855  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:49:00.856  INFO: Creating thread for interface UPBOARD_INT
+2018/02/03 13:49:00.858  INFO: Creating thread for interface SYSTEM_INT
+2018/02/03 13:49:00.860  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 13:49:00.860  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/02/03 13:49:00.862  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/02/03 13:49:00.862  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:49:00.862  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/02/03 13:49:00.863  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/02/03 13:49:00.863  INFO: Starting packet reading for SYSTEM_INT
+2018/02/03 13:49:00.863  INFO: Connecting to SYSTEM_INT...
+2018/02/03 13:49:00.863  INFO: SYSTEM_INT Connection Success
+2018/02/03 13:49:00.883  INFO: Starting packet reading for UPBOARD_INT
+2018/02/03 13:49:00.884  INFO: Connecting to UPBOARD_INT...
+2018/02/03 13:49:00.913  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: Access is denied.
+2018/02/03 13:49:00.913  ERROR: RuntimeError : Error during CreateFile: Access is denied.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/02/03 13:49:10.151  INFO: Connecting to UPBOARD_INT...
+2018/02/03 13:49:10.152  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: Access is denied.
+2018/02/03 13:49:10.153  ERROR: RuntimeError : Error during CreateFile: Access is denied.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/02/03 13:49:12.517  INFO: User disconnecting interface UPBOARD_INT
+2018/02/03 13:49:12.517  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 13:49:12.518  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 13:49:12.528  INFO: Disconnected from interface UPBOARD_INT
+2018/02/03 13:49:13.974  INFO: User connecting interface UPBOARD_INT
+2018/02/03 13:49:13.974  INFO: Creating thread for interface UPBOARD_INT
+2018/02/03 13:49:13.977  INFO: Starting packet reading for UPBOARD_INT
+2018/02/03 13:49:13.977  INFO: Connecting to UPBOARD_INT...
+2018/02/03 13:49:13.978  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: Access is denied.
+2018/02/03 13:49:13.978  ERROR: RuntimeError : Error during CreateFile: Access is denied.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/02/03 13:49:18.995  INFO: Connecting to UPBOARD_INT...
+2018/02/03 13:49:18.996  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: Access is denied.
+2018/02/03 13:49:18.996  ERROR: RuntimeError : Error during CreateFile: Access is denied.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/02/03 13:49:20.542  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/02/03 13:49:20.542  INFO: Connection Lost for SYSTEM_INT
+2018/02/03 13:49:20.642  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/02/03 13:49:20.642  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/02/03 13:49:20.642  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/02/03 13:49:20.673  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 13:49:20.673  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/02/03 13:49:20.673  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:49:20.675  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:49:20.778  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:49:20.800  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 13:49:20.802  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 13:49:20.810  INFO: Disconnected from interface UPBOARD_INT
+2018/02/03 13:49:20.810  INFO: Killing thread for interface SYSTEM_INT
+2018/02/03 13:49:20.818  INFO: Stopped packet reading for SYSTEM_INT
+2018/02/03 13:49:20.821  INFO: Disconnected from interface SYSTEM_INT

@@ -1,0 +1,30 @@
+2018/02/03 13:47:38.083  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:38.227  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:38.256  ERROR: UPBOARD IMU received with actual packet length of 79 but defined length of 43
+2018/02/03 13:47:38.271  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_13_47_32_tlm.bin
+2018/02/03 13:47:38.271  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/02/03 13:47:38.271  INFO: Connection Lost for SYSTEM_INT
+2018/02/03 13:47:38.290  ERROR: UPBOARD IMU received with actual packet length of 30 but defined length of 43
+2018/02/03 13:47:38.322  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:38.371  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/02/03 13:47:38.371  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/02/03 13:47:38.371  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/02/03 13:47:38.462  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 13:47:38.462  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/02/03 13:47:38.462  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:47:38.467  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:47:38.482  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:47:38.502  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 13:47:38.613  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/02/03 13:47:38.613  INFO: Connection Lost for UPBOARD_INT
+2018/02/03 13:47:38.613  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 13:47:38.618  INFO: Disconnected from interface UPBOARD_INT
+2018/02/03 13:47:38.618  INFO: Killing thread for interface SYSTEM_INT
+2018/02/03 13:47:38.623  INFO: Stopped packet reading for SYSTEM_INT
+2018/02/03 13:47:38.628  INFO: Disconnected from interface SYSTEM_INT
+2018/02/03 13:47:38.635  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/02/03 13:47:38.639  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/02/03 13:47:38.650  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/02/03 13:47:38.653  INFO: COSMOS Version: 4.1.1
+2018/02/03 13:47:38.653  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/02/03 13:47:38.659  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt

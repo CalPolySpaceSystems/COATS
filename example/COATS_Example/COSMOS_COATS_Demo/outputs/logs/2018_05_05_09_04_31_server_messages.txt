@@ -1,0 +1,102 @@
+2018/05/05 09:04:25.159  INFO: COSMOS Version: 4.1.1
+2018/05/05 09:04:25.290  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/05/05 09:04:25.309  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/05/05 09:04:25.340  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/05/05 09:04:25.348  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/05/05 09:04:25.389  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/05/05 09:04:30.484  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/05/05 09:04:30.486  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:04:30.488  INFO: Creating thread for interface UPBOARD_INT
+2018/05/05 09:04:30.491  INFO: Creating thread for interface SYSTEM_INT
+2018/05/05 09:04:30.495  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/05/05 09:04:30.495  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/05/05 09:04:30.497  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/05/05 09:04:30.497  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:04:30.497  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/05/05 09:04:30.510  INFO: Starting packet reading for UPBOARD_INT
+2018/05/05 09:04:30.510  INFO: Connecting to UPBOARD_INT...
+2018/05/05 09:04:30.511  INFO: Starting packet reading for SYSTEM_INT
+2018/05/05 09:04:30.511  INFO: Connecting to SYSTEM_INT...
+2018/05/05 09:04:30.511  INFO: SYSTEM_INT Connection Success
+2018/05/05 09:04:30.519  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/05/05 09:04:30.528  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2018/05/05 09:04:30.528  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/05/05 09:04:35.750  INFO: Connecting to UPBOARD_INT...
+2018/05/05 09:04:35.751  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2018/05/05 09:04:35.751  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/05/05 09:04:40.759  INFO: Connecting to UPBOARD_INT...
+2018/05/05 09:04:40.761  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2018/05/05 09:04:40.761  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/05/05 09:04:45.774  INFO: Connecting to UPBOARD_INT...
+2018/05/05 09:04:45.774  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2018/05/05 09:04:45.775  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/05/05 09:04:48.728  INFO: User disconnecting interface UPBOARD_INT
+2018/05/05 09:04:48.728  INFO: Killing thread for interface UPBOARD_INT
+2018/05/05 09:04:48.737  INFO: Stopped packet reading for UPBOARD_INT
+2018/05/05 09:04:48.738  INFO: Disconnected from interface UPBOARD_INT
+2018/05/05 09:05:44.119  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/05/05 09:05:44.119  INFO: Connection Lost for SYSTEM_INT
+2018/05/05 09:05:44.219  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/05/05 09:05:44.219  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/05/05 09:05:44.219  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/05/05 09:05:44.282  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/05/05 09:05:44.292  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/05/05 09:05:44.292  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:05:44.294  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:05:44.385  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:05:44.406  INFO: Disconnected from interface UPBOARD_INT
+2018/05/05 09:05:44.406  INFO: Killing thread for interface SYSTEM_INT
+2018/05/05 09:05:44.417  INFO: Stopped packet reading for SYSTEM_INT
+2018/05/05 09:05:44.417  INFO: Disconnected from interface SYSTEM_INT

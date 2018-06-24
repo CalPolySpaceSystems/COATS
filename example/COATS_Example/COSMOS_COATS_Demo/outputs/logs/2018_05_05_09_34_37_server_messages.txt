@@ -1,0 +1,65 @@
+2018/05/05 09:34:34.907  INFO: COSMOS Version: 4.1.1
+2018/05/05 09:34:35.224  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/05/05 09:34:35.243  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/05/05 09:34:35.256  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/05/05 09:34:35.259  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/05/05 09:34:35.311  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/05/05 09:34:37.040  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/05/05 09:34:37.042  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:34:37.044  INFO: Creating thread for interface UPBOARD_INT
+2018/05/05 09:34:37.045  INFO: Creating thread for interface SYSTEM_INT
+2018/05/05 09:34:37.047  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/05/05 09:34:37.047  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/05/05 09:34:37.048  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/05/05 09:34:37.048  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:34:37.048  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/05/05 09:34:37.049  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/05/05 09:34:37.050  INFO: Starting packet reading for UPBOARD_INT
+2018/05/05 09:34:37.050  INFO: Connecting to UPBOARD_INT...
+2018/05/05 09:34:37.066  INFO: Starting packet reading for SYSTEM_INT
+2018/05/05 09:34:37.066  INFO: Connecting to SYSTEM_INT...
+2018/05/05 09:34:37.071  INFO: SYSTEM_INT Connection Success
+2018/05/05 09:34:37.073  INFO: UPBOARD_INT Connection Success
+2018/05/05 09:35:18.376  INFO: User disconnecting interface UPBOARD_INT
+2018/05/05 09:35:18.376  INFO: Killing thread for interface UPBOARD_INT
+2018/05/05 09:35:18.387  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/05/05 09:35:18.387  INFO: Connection Lost for UPBOARD_INT
+2018/05/05 09:35:18.387  INFO: Stopped packet reading for UPBOARD_INT
+2018/05/05 09:35:18.387  INFO: Disconnected from interface UPBOARD_INT
+2018/05/05 09:35:32.533  INFO: User connecting interface UPBOARD_INT
+2018/05/05 09:35:32.533  INFO: Creating thread for interface UPBOARD_INT
+2018/05/05 09:35:32.535  INFO: Starting packet reading for UPBOARD_INT
+2018/05/05 09:35:32.535  INFO: Connecting to UPBOARD_INT...
+2018/05/05 09:35:32.535  ERROR: UPBOARD_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2018/05/05 09:35:32.535  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2018/05/05 09:35:35.176  INFO: User disconnecting interface UPBOARD_INT
+2018/05/05 09:35:35.177  INFO: Killing thread for interface UPBOARD_INT
+2018/05/05 09:35:35.180  INFO: Stopped packet reading for UPBOARD_INT
+2018/05/05 09:35:35.187  INFO: Disconnected from interface UPBOARD_INT
+2018/05/05 09:35:37.624  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/05/05 09:35:37.624  INFO: Connection Lost for SYSTEM_INT
+2018/05/05 09:35:37.725  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/05/05 09:35:37.726  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/05/05 09:35:37.726  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/05/05 09:35:37.747  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/05/05 09:35:37.758  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/05/05 09:35:37.758  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:35:37.768  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:35:37.841  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:35:37.862  INFO: Disconnected from interface UPBOARD_INT
+2018/05/05 09:35:37.862  INFO: Killing thread for interface SYSTEM_INT
+2018/05/05 09:35:37.868  INFO: Stopped packet reading for SYSTEM_INT
+2018/05/05 09:35:37.873  INFO: Disconnected from interface SYSTEM_INT

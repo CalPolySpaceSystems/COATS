@@ -1,0 +1,295 @@
+2018/02/03 11:26:25.735  INFO: COSMOS Version: 4.1.1
+2018/02/03 11:26:26.090  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/02/03 11:26:26.107  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/02/03 11:26:26.144  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/02/03 11:26:26.146  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/02/03 11:26:26.177  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/02/03 11:26:27.583  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/02/03 11:26:27.584  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 11:26:27.584  INFO: Creating thread for interface UPBOARD_INT
+2018/02/03 11:26:27.585  INFO: Creating thread for interface SYSTEM_INT
+2018/02/03 11:26:27.595  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 11:26:27.595  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/02/03 11:26:27.598  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/02/03 11:26:27.598  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 11:26:27.598  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/02/03 11:26:27.599  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/02/03 11:26:27.599  INFO: Starting packet reading for UPBOARD_INT
+2018/02/03 11:26:27.599  INFO: Connecting to UPBOARD_INT...
+2018/02/03 11:26:27.599  INFO: Starting packet reading for SYSTEM_INT
+2018/02/03 11:26:27.599  INFO: Connecting to SYSTEM_INT...
+2018/02/03 11:26:27.599  INFO: SYSTEM_INT Connection Success
+2018/02/03 11:26:27.645  INFO: UPBOARD_INT Connection Success
+2018/02/03 11:26:27.678  ERROR: UPBOARD_INT - Unknown 8 byte packet starting: 0000000000000000
+2018/02/03 11:26:27.683  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_11_26_27_tlm.bin
+2018/02/03 11:26:30.658  ERROR: UPBOARD IMU received with actual packet length of 25 but defined length of 43
+2018/02/03 11:26:43.739  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 13 but defined length of 15
+2018/02/03 11:27:04.382  ERROR: UPBOARD IMU received with actual packet length of 57 but defined length of 43
+2018/02/03 11:27:04.509  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:04.739  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:04.864  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:05.059  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:05.183  ERROR: UPBOARD IMU received with actual packet length of 59 but defined length of 43
+2018/02/03 11:27:05.406  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 11:27:05.499  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:05.727  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:05.818  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:06.057  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:06.159  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:06.207  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 59 but defined length of 15
+2018/02/03 11:27:06.392  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:06.493  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:06.538  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:06.732  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:06.801  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:06.859  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:07.088  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:07.213  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:07.400  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:07.527  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:07.744  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:07.857  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:08.072  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:08.171  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:08.415  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:08.506  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:08.766  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:08.855  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:08.890  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:09.085  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:09.165  ERROR: UPBOARD IMU received with actual packet length of 59 but defined length of 43
+2018/02/03 11:27:09.224  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:09.438  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 11:27:09.557  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:09.755  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:09.875  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:10.088  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:10.221  ERROR: UPBOARD_INT - Unknown 42 byte packet starting: 380021A0B441AF09013F52EB7DBCAD48743F72140F40DC2802C0666622C0CCEEC9BC3B36
+2018/02/03 11:27:10.438  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:10.543  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:10.759  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:10.859  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:11.108  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:11.206  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:11.239  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:11.442  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:11.530  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:11.570  ERROR: UPBOARD_INT - Unknown 14 byte packet starting: 3900000000000000000000000000
+2018/02/03 11:27:11.786  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 56 but defined length of 15
+2018/02/03 11:27:11.842  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:11.922  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:12.116  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:12.243  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:12.433  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:12.531  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:12.785  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:12.883  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:13.106  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:13.225  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:13.461  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:13.556  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:13.599  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:13.790  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:13.889  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:13.922  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:14.109  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 11 but defined length of 15
+2018/02/03 11:27:14.208  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:14.274  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:14.465  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:14.591  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:14.806  ERROR: UPBOARD_INT - Unknown 10 byte packet starting: 00000000000000000000
+2018/02/03 11:27:14.927  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:15.132  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:15.238  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:15.458  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:15.566  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:15.822  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 11:27:15.915  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:16.142  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:16.243  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:16.266  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:16.478  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 11 but defined length of 15
+2018/02/03 11:27:16.592  ERROR: UPBOARD_INT - Unknown 42 byte packet starting: 3E005FBFB44198665A3E969350BDE5EC653F022C184091432140CDCC80BF033E3FBDB610
+2018/02/03 11:27:16.619  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:16.811  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:16.880  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:16.940  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:17.146  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:17.272  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:17.501  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:17.632  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:17.816  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:17.912  ERROR: UPBOARD IMU received with actual packet length of 59 but defined length of 43
+2018/02/03 11:27:18.175  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 11:27:18.268  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:18.490  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:18.585  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:18.822  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:18.924  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:18.990  ERROR: UPBOARD_INT - Unknown 42 byte packet starting: 4000C0AFB441976FAD3EDC297D3E0F285B3FCBAC9DC0DC2802408FC289C0B61064BA0343
+2018/02/03 11:27:19.179  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:19.273  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:19.307  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:19.499  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:19.566  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:19.623  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:19.854  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:19.979  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:20.173  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:20.297  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:20.502  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:20.619  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:20.836  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:20.938  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:21.174  ERROR: UPBOARD_INT - Unknown 10 byte packet starting: 00000000000000000000
+2018/02/03 11:27:21.278  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:21.527  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:21.620  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:21.653  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:21.845  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:21.958  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:21.992  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:22.198  ERROR: UPBOARD_INT - Unknown 39 byte packet starting: 8CB441A297B13E87A195BD1DFF453FB267B4C09259EDBEE17A2C408A027D3D240B18BC0E
+2018/02/03 11:27:22.270  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:22.328  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:22.515  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:22.666  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:22.855  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:23.012  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:23.205  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:23.298  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:23.578  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:23.671  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:23.911  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:24.001  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:24.069  ERROR: UPBOARD IMU received with actual packet length of 34 but defined length of 43
+2018/02/03 11:27:24.102  ERROR: UPBOARD IMU received with actual packet length of 47 but defined length of 43
+2018/02/03 11:27:24.136  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:24.159  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:24.376  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:24.466  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:24.718  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:24.822  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:25.041  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:25.134  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:25.392  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:25.492  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:25.517  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:25.712  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:25.808  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:25.851  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:26.052  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 11 but defined length of 15
+2018/02/03 11:27:26.127  ERROR: UPBOARD_INT - Unknown 42 byte packet starting: 4700F0A7B441C20FBE3E274BEDBD9352583FE012043F08001CC09A990340F8FC303D03EC
+2018/02/03 11:27:26.206  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:26.400  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:26.529  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:26.720  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:26.849  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:27.071  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:27.170  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:27.390  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:27.505  ERROR: UPBOARD_INT - Unknown 14 byte packet starting: 4900000000000000000000000000
+2018/02/03 11:27:27.741  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 11:27:27.842  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:28.063  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:28.171  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:28.203  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:28.395  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 11 but defined length of 15
+2018/02/03 11:27:28.522  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 59 but defined length of 15
+2018/02/03 11:27:28.558  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:28.754  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:28.811  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:28.883  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:29.084  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:29.211  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:29.422  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:29.552  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:29.739  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:29.831  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:30.110  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 11:27:30.200  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:30.425  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:30.518  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:30.764  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:30.855  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:30.900  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 59 but defined length of 15
+2018/02/03 11:27:31.093  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:31.195  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:31.229  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:31.422  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:31.502  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:31.561  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:31.765  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:31.911  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:32.108  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:32.236  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:32.420  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:32.555  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:32.773  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:32.873  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:33.111  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:33.212  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:33.450  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:33.542  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:33.591  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:33.786  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:33.878  ERROR: UPBOARD_INT - Unknown 14 byte packet starting: 4F00000000000000000000000000
+2018/02/03 11:27:33.911  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:34.130  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 56 but defined length of 15
+2018/02/03 11:27:34.201  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:34.257  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:34.460  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:34.576  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:34.792  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:34.929  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:35.121  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:35.222  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:35.457  ERROR: UPBOARD IMU received with actual packet length of 55 but defined length of 43
+2018/02/03 11:27:35.561  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:35.814  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:35.906  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:36.133  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:36.227  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:36.272  ERROR: UPBOARD_INT - Unknown 14 byte packet starting: 5200000000000000000000000000
+2018/02/03 11:27:36.486  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 56 but defined length of 15
+2018/02/03 11:27:36.577  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:36.611  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:36.804  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:36.871  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:36.930  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:37.135  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:37.294  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 59 but defined length of 15
+2018/02/03 11:27:37.490  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:37.583  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:37.803  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:37.901  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:38.159  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:38.251  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:38.476  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:38.571  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:38.603  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:38.816  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 11 but defined length of 15
+2018/02/03 11:27:38.931  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:38.975  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:39.167  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:39.237  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:39.292  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:39.480  ERROR: UPBOARD_INT - Unknown 10 byte packet starting: 00000000000000000000
+2018/02/03 11:27:39.630  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:39.840  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:39.967  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:40.152  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:40.265  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:40.504  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 55 but defined length of 15
+2018/02/03 11:27:40.603  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:40.848  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 11:27:40.936  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:41.432  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 10 but defined length of 15
+2018/02/03 11:27:41.435  ERROR: UPBOARD_INT - Unknown 42 byte packet starting: 5700D8ABB44145F0EF3E488406BEC590803FDC2882BFDC2882BE666686BEE7C6143EF8FC
+2018/02/03 11:27:41.435  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:41.515  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 11:27:41.610  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:41.641  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 11:27:41.850  ERROR: UPBOARD IMU received with actual packet length of 56 but defined length of 43
+2018/02/03 11:27:41.912  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15
+2018/02/03 11:27:41.991  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 14 but defined length of 15

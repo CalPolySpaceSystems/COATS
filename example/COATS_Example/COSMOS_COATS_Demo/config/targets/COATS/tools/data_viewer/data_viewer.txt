@@ -1,0 +1,5 @@
+# CPSS data viewer 12/24/2017
+# Shows data dumps for each of the packets defined in upboard_tlm.txt
+
+COMPONENT "ADC Data Status" coats_dump_component.rb
+  PACKET COATS ADC

@@ -1,0 +1,25 @@
+2018/02/03 14:21:54.366  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 14:21:54.501  ERROR: UPBOARD_INT - Unknown 42 byte packet starting: 4E081D3EB64108387C3FD93B23BD8C47A93B9F01F53B032119BE48E142BF6B2B0E3F8F4E
+2018/02/03 14:21:54.708  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 14:21:54.803  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 14:21:55.035  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 14:21:55.049  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_14_12_54_tlm.bin
+2018/02/03 14:21:55.050  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/02/03 14:21:55.050  INFO: Connection Lost for SYSTEM_INT
+2018/02/03 14:21:55.123  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 14:21:55.151  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/02/03 14:21:55.151  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/02/03 14:21:55.151  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/02/03 14:21:55.245  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 14:21:55.255  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/02/03 14:21:55.255  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 14:21:55.261  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 14:21:55.327  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 14:21:55.359  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 14:21:55.484  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/02/03 14:21:55.484  INFO: Connection Lost for UPBOARD_INT
+2018/02/03 14:21:55.484  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 14:21:55.487  INFO: Disconnected from interface UPBOARD_INT
+2018/02/03 14:21:55.487  INFO: Killing thread for interface SYSTEM_INT
+2018/02/03 14:21:55.488  INFO: Stopped packet reading for SYSTEM_INT
+2018/02/03 14:21:55.497  INFO: Disconnected from interface SYSTEM_INT

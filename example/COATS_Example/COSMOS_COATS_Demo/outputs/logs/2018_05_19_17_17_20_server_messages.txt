@@ -1,0 +1,309 @@
+2018/05/19 17:17:18.955  INFO: COSMOS Version: 4.1.1
+2018/05/19 17:17:18.986  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/05/19 17:17:19.165  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/05/19 17:17:19.203  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/05/19 17:17:19.254  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/05/19 17:17:19.297  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/05/19 17:17:20.708  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/05/19 17:17:20.709  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/19 17:17:20.710  INFO: Creating thread for interface UPBOARD_INT
+2018/05/19 17:17:20.710  INFO: Creating thread for interface SYSTEM_INT
+2018/05/19 17:17:20.719  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/05/19 17:17:20.719  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/05/19 17:17:20.720  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/05/19 17:17:20.720  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/05/19 17:17:20.720  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/05/19 17:17:20.723  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/05/19 17:17:20.723  INFO: Starting packet reading for UPBOARD_INT
+2018/05/19 17:17:20.723  INFO: Connecting to UPBOARD_INT...
+2018/05/19 17:17:20.723  INFO: Starting packet reading for SYSTEM_INT
+2018/05/19 17:17:20.723  INFO: Connecting to SYSTEM_INT...
+2018/05/19 17:17:20.723  INFO: SYSTEM_INT Connection Success
+2018/05/19 17:17:20.779  INFO: UPBOARD_INT Connection Success
+2018/05/19 17:17:21.283  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_05_19_17_17_21_tlm.bin
+2018/05/19 17:17:21.308  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:21.930  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:22.532  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:23.163  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:23.761  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:24.389  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:24.994  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:25.605  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:26.232  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:26.837  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:27.450  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:28.063  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:28.687  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:29.307  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:29.911  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:30.522  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:31.141  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:31.771  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:32.378  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:32.998  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:33.606  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:34.210  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:34.836  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:35.463  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:36.068  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:36.685  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:37.300  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:37.924  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:38.531  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:39.147  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:39.759  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:40.365  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:40.981  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:41.613  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:42.212  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:42.818  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:43.445  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:44.058  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:44.679  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:45.301  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:45.905  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:46.530  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:47.139  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:47.754  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:48.369  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:48.989  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:49.592  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:50.217  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:50.829  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:51.453  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:52.064  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:52.681  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:53.284  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:53.908  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:54.517  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:55.136  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:55.751  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:56.358  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:56.979  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:57.601  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:58.204  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:58.830  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:17:59.436  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:00.041  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:00.649  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:01.275  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:01.898  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:02.521  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:03.110  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:03.731  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:04.339  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:04.983  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:05.589  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:06.210  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:06.822  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:07.430  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:08.031  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:08.654  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:09.282  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:09.887  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:10.506  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:11.114  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:11.744  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:12.349  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:12.951  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:13.571  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:14.204  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:14.807  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:15.415  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:16.041  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:16.641  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:17.267  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:17.892  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:18.501  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:19.100  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:19.723  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:20.332  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:20.961  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:21.565  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:22.190  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:22.790  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:23.411  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:24.019  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:24.642  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:25.266  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:25.880  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:26.479  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:27.105  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:27.728  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:28.336  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:28.944  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:29.568  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:30.189  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:30.796  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:31.421  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:32.028  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:32.651  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:33.257  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:33.879  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:34.484  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:35.110  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:35.720  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:36.340  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:36.949  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:37.568  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:38.172  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:38.795  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:39.406  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:40.012  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:40.634  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:41.247  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:41.873  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:42.488  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:43.101  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:43.718  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:44.330  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:44.948  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:45.560  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:46.184  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:46.786  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:47.414  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:48.019  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:48.645  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:49.245  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:49.853  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:50.481  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:51.099  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:51.706  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:52.329  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:52.945  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:53.551  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:54.172  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:54.789  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:55.395  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:56.003  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:56.627  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:57.254  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:57.863  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:58.486  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:59.092  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:18:59.707  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:00.316  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:00.940  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:01.552  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:02.171  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:02.779  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:03.406  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:04.005  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:04.613  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:05.234  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:05.850  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:06.473  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:07.089  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:07.696  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:08.318  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:08.935  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:09.533  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:10.161  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:10.771  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:11.396  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:12.009  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:12.617  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:13.230  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:13.850  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:14.474  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:15.075  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:15.700  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:16.305  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:16.920  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:17.539  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:18.144  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:18.769  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:19.392  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:20.003  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:20.613  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:21.231  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:21.839  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:22.460  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:23.088  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:23.687  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:24.314  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:24.923  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:25.529  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:26.157  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:26.770  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:27.380  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:28.003  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:28.608  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:29.221  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:29.840  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:30.446  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:31.067  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:31.695  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:32.305  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:32.921  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:33.527  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:34.143  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:34.742  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:35.363  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:35.990  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:36.610  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:37.201  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:37.828  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:38.437  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:39.076  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:39.670  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:40.301  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:40.897  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:41.533  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:42.138  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:42.753  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:43.368  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:43.996  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:44.609  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:45.209  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:45.835  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:46.436  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:47.067  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:47.666  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:48.291  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:48.919  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:49.525  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:50.149  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:50.741  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:51.363  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:51.982  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:52.587  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:53.214  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:53.825  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:54.449  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:55.045  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:55.658  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:56.279  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:56.899  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:57.514  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:58.118  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:58.745  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:59.367  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:19:59.969  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:20:00.599  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:20:01.205  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:20:01.828  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:20:02.428  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:20:03.035  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:20:03.662  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 27 but defined length of 15
+2018/05/19 17:21:32.220  ERROR: UPBOARD_INT - Unknown 87 byte packet starting: 43313A2034303939330A0D0A43323A2033353638350A0D0A43333A2032363030300A0D0A
+2018/05/19 17:23:04.579  ERROR: UPBOARD_INT - Unknown 87 byte packet starting: 43313A2034303939330A0D0A43323A2033353638350A0D0A43333A2032363030300A0D0A
+2018/05/19 20:38:32.911  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_05_19_17_17_21_tlm.bin
+2018/05/19 20:38:32.911  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/05/19 20:38:32.911  INFO: Connection Lost for SYSTEM_INT
+2018/05/19 20:38:33.012  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/05/19 20:38:33.013  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/05/19 20:38:33.013  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/05/19 20:38:33.099  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/05/19 20:38:33.099  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/05/19 20:38:33.099  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/19 20:38:33.106  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/05/19 20:38:33.198  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/05/19 20:38:33.220  INFO: Killing thread for interface UPBOARD_INT
+2018/05/19 20:38:33.226  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/05/19 20:38:33.226  INFO: Connection Lost for UPBOARD_INT
+2018/05/19 20:38:33.226  INFO: Stopped packet reading for UPBOARD_INT
+2018/05/19 20:38:33.231  INFO: Disconnected from interface UPBOARD_INT
+2018/05/19 20:38:33.231  INFO: Killing thread for interface SYSTEM_INT
+2018/05/19 20:38:33.241  INFO: Stopped packet reading for SYSTEM_INT
+2018/05/19 20:38:33.242  INFO: Disconnected from interface SYSTEM_INT

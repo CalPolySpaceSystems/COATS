@@ -1,0 +1,6 @@
+AUTO_START
+
+# Allow DataViewer to automatically detect a config/data_viewer/data_viewer.txt
+# file in each of the target directories and load the configuration
+# AUTO_TARGET_COMPONENTS
+

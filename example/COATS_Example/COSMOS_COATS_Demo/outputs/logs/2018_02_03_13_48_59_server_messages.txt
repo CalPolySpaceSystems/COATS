@@ -1,0 +1,25 @@
+2018/02/03 13:48:59.621  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_13_47_40_tlm.bin
+2018/02/03 13:48:59.622  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/02/03 13:48:59.622  INFO: Connection Lost for SYSTEM_INT
+2018/02/03 13:48:59.722  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/02/03 13:48:59.722  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/02/03 13:48:59.722  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/02/03 13:48:59.732  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 13:48:59.732  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/02/03 13:48:59.733  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:48:59.739  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:48:59.763  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:48:59.783  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 13:48:59.792  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/02/03 13:48:59.792  INFO: Connection Lost for UPBOARD_INT
+2018/02/03 13:48:59.792  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 13:48:59.794  INFO: Disconnected from interface UPBOARD_INT
+2018/02/03 13:48:59.794  INFO: Killing thread for interface SYSTEM_INT
+2018/02/03 13:48:59.799  INFO: Stopped packet reading for SYSTEM_INT
+2018/02/03 13:48:59.804  INFO: Disconnected from interface SYSTEM_INT
+2018/02/03 13:48:59.818  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/02/03 13:48:59.836  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/02/03 13:48:59.847  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/02/03 13:48:59.858  INFO: COSMOS Version: 4.1.1
+2018/02/03 13:48:59.858  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/02/03 13:48:59.861  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt

@@ -1,0 +1,36 @@
+2018/02/02 23:44:11.048  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/02/02 23:44:11.048  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/02 23:44:11.049  INFO: Creating thread for interface UPBOARD_INT
+2018/02/02 23:44:11.049  INFO: Creating thread for interface SYSTEM_INT
+2018/02/02 23:44:11.050  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/02/02 23:44:11.050  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/02/02 23:44:11.051  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/02/02 23:44:11.051  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/02/02 23:44:11.051  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/02/02 23:44:11.051  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/02/02 23:44:11.051  INFO: Starting packet reading for UPBOARD_INT
+2018/02/02 23:44:11.051  INFO: Connecting to UPBOARD_INT...
+2018/02/02 23:44:11.052  INFO: Starting packet reading for SYSTEM_INT
+2018/02/02 23:44:11.052  INFO: Connecting to SYSTEM_INT...
+2018/02/02 23:44:11.052  INFO: SYSTEM_INT Connection Success
+2018/02/02 23:44:11.101  INFO: UPBOARD_INT Connection Success
+2018/02/02 23:44:28.864  INFO: User disconnecting interface UPBOARD_INT
+2018/02/02 23:44:28.864  INFO: Killing thread for interface UPBOARD_INT
+2018/02/02 23:44:28.980  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/02/02 23:44:28.980  INFO: Connection Lost for UPBOARD_INT
+2018/02/02 23:44:28.980  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/02 23:44:28.990  INFO: Disconnected from interface UPBOARD_INT
+2018/02/02 23:44:32.297  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/02/02 23:44:32.297  INFO: Connection Lost for SYSTEM_INT
+2018/02/02 23:44:32.398  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/02/02 23:44:32.398  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/02/02 23:44:32.398  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/02/02 23:44:32.460  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/02/02 23:44:32.460  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/02/02 23:44:32.460  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/02 23:44:32.462  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/02/02 23:44:32.553  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/02/02 23:44:32.583  INFO: Disconnected from interface UPBOARD_INT
+2018/02/02 23:44:32.583  INFO: Killing thread for interface SYSTEM_INT
+2018/02/02 23:44:32.594  INFO: Stopped packet reading for SYSTEM_INT
+2018/02/02 23:44:32.603  INFO: Disconnected from interface SYSTEM_INT

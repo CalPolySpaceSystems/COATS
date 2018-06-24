@@ -1,0 +1,21 @@
+========================
+Standard Data Formatting
+========================
+For each message type:
+    ->Message Length
+    ->Message Identifer
+    ->Message Data
+
+
+Example:
+    Packet has GPS, Accel Data, Barometer Data
+
+    <GPS MessageLength><GPS Identifier><GPS Data><End Bit>
+        <Accel MsgLength><Accel Identifier><Accel Data><End Bit>
+            <Baro MsgLength><Baro Identifer><Baro Data><End Bit>
+
+Message Identifiers: uint8_t (0 - 255)
+Message Length: uint8_t (# bytes)
+Message Data: 
+End Bit: Need to Choose (setup COSMOS for minimum packet length)
+            -> Go through possible message data values

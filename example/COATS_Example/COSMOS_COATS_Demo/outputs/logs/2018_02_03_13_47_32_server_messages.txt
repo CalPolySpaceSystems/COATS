@@ -1,0 +1,63 @@
+2018/02/03 13:47:30.762  INFO: COSMOS Version: 4.1.1
+2018/02/03 13:47:30.914  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/02/03 13:47:30.936  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/02/03 13:47:30.981  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/02/03 13:47:30.985  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/02/03 13:47:31.029  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/02/03 13:47:32.426  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/02/03 13:47:32.427  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:47:32.427  INFO: Creating thread for interface UPBOARD_INT
+2018/02/03 13:47:32.428  INFO: Creating thread for interface SYSTEM_INT
+2018/02/03 13:47:32.428  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 13:47:32.428  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/02/03 13:47:32.429  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/02/03 13:47:32.429  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 13:47:32.429  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/02/03 13:47:32.432  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/02/03 13:47:32.432  INFO: Starting packet reading for UPBOARD_INT
+2018/02/03 13:47:32.432  INFO: Connecting to UPBOARD_INT...
+2018/02/03 13:47:32.432  INFO: Starting packet reading for SYSTEM_INT
+2018/02/03 13:47:32.432  INFO: Connecting to SYSTEM_INT...
+2018/02/03 13:47:32.432  INFO: SYSTEM_INT Connection Success
+2018/02/03 13:47:32.480  INFO: UPBOARD_INT Connection Success
+2018/02/03 13:47:32.499  ERROR: UPBOARD_INT - Unknown 30 byte packet starting: C7BC654D2CBD0321993E3E95BB3EB81E0D3FABCFD53CA089703E359826BE
+2018/02/03 13:47:32.513  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_13_47_32_tlm.bin
+2018/02/03 13:47:32.692  ERROR: UPBOARD IMU received with actual packet length of 83 but defined length of 43
+2018/02/03 13:47:32.787  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:33.009  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:33.112  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:33.158  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:33.351  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:47:33.465  ERROR: UPBOARD IMU received with actual packet length of 87 but defined length of 43
+2018/02/03 13:47:33.498  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:33.696  ERROR: UPBOARD IMU received with actual packet length of 84 but defined length of 43
+2018/02/03 13:47:33.749  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:33.813  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:34.015  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:34.161  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:34.358  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:34.501  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:34.705  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:34.790  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:35.014  ERROR: UPBOARD IMU received with actual packet length of 57 but defined length of 43
+2018/02/03 13:47:35.026  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:35.126  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:35.362  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:35.472  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:35.720  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:35.800  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:36.035  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:36.129  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:36.349  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:36.484  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:36.494  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:36.704  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:47:36.800  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:36.846  ERROR: UPBOARD_INT - Unknown 42 byte packet starting: 440085F2B24151D980BFD93BA3BC3AC8EBBCACA97C3E2445ACBE000000007DCB1C3D9A3D
+2018/02/03 13:47:37.039  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/02/03 13:47:37.117  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:37.185  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:37.398  ERROR: UPBOARD IMU received with actual packet length of 83 but defined length of 43
+2018/02/03 13:47:37.507  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/02/03 13:47:37.780  ERROR: UPBOARD IMU received with actual packet length of 38 but defined length of 43
+2018/02/03 13:47:37.890  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43

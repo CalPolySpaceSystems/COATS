@@ -1,0 +1,67 @@
+2018/05/05 10:28:04.648  INFO: COSMOS Version: 4.1.1
+2018/05/05 10:28:04.680  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/05/05 10:28:04.894  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/05/05 10:28:04.930  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/05/05 10:28:04.934  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/05/05 10:28:04.995  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/05/05 10:28:06.273  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/05/05 10:28:06.275  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 10:28:06.277  INFO: Creating thread for interface UPBOARD_INT
+2018/05/05 10:28:06.279  INFO: Creating thread for interface SYSTEM_INT
+2018/05/05 10:28:06.282  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/05/05 10:28:06.283  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/05/05 10:28:06.284  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/05/05 10:28:06.284  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/05/05 10:28:06.284  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/05/05 10:28:06.311  INFO: Starting packet reading for UPBOARD_INT
+2018/05/05 10:28:06.311  INFO: Connecting to UPBOARD_INT...
+2018/05/05 10:28:06.311  INFO: Starting packet reading for SYSTEM_INT
+2018/05/05 10:28:06.312  INFO: Connecting to SYSTEM_INT...
+2018/05/05 10:28:06.312  INFO: SYSTEM_INT Connection Success
+2018/05/05 10:28:06.321  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/05/05 10:28:06.367  INFO: UPBOARD_INT Connection Success
+2018/05/05 10:28:06.476  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_05_05_10_28_06_tlm.bin
+2018/05/05 10:29:26.323  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:29:26.323  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:29:26.952  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:29:26.952  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:29:27.878  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:29:27.879  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:29:28.823  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:29:28.823  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:29:29.118  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:29:29.140  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:10.116  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:10.137  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:13.252  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:13.252  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:13.875  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:13.876  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:17.293  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:17.314  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:56.311  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:56.311  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:56.611  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:56.611  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:57.241  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:57.241  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:32:57.541  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:32:57.541  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:33:04.414  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:33:04.414  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:33:06.601  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:33:06.602  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:33:10.337  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:33:10.338  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:33:11.591  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:33:11.591  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:34:21.181  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:34:21.182  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:34:24.299  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:34:24.299  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:34:25.224  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:34:25.235  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:34:25.541  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:34:25.541  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145
+2018/05/05 10:34:27.411  ERROR: UPBOARD BAROMETER received with actual packet length of 10 but defined length of 15
+2018/05/05 10:34:27.411  ERROR: UPBOARD_INT - Unknown 3 byte packet starting: FAB145

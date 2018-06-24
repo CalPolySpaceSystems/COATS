@@ -1,0 +1,22 @@
+2018/02/03 10:53:28.975  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/02/03 10:53:28.975  INFO: Connection Lost for SYSTEM_INT
+2018/02/03 10:53:29.075  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/02/03 10:53:29.076  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/02/03 10:53:29.076  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/02/03 10:53:29.117  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 10:53:29.127  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/02/03 10:53:29.127  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 10:53:29.134  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 10:53:29.210  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 10:53:29.233  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 10:53:29.235  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 10:53:29.243  INFO: Disconnected from interface UPBOARD_INT
+2018/02/03 10:53:29.243  INFO: Killing thread for interface SYSTEM_INT
+2018/02/03 10:53:29.250  INFO: Stopped packet reading for SYSTEM_INT
+2018/02/03 10:53:29.254  INFO: Disconnected from interface SYSTEM_INT
+2018/02/03 10:53:29.289  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/02/03 10:53:29.322  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/02/03 10:53:29.352  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/02/03 10:53:29.360  INFO: COSMOS Version: 4.1.1
+2018/02/03 10:53:29.360  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/02/03 10:53:29.364  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt

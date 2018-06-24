@@ -1,0 +1,26 @@
+2018/02/03 12:43:59.575  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/02/03 12:43:59.576  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/03 12:43:59.577  INFO: Creating thread for interface UPBOARD_INT
+2018/02/03 12:43:59.577  INFO: Creating thread for interface SYSTEM_INT
+2018/02/03 12:43:59.578  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/02/03 12:43:59.579  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/02/03 12:43:59.579  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/02/03 12:43:59.580  INFO: Starting packet reading for UPBOARD_INT
+2018/02/03 12:43:59.580  INFO: Starting packet reading for SYSTEM_INT
+2018/02/03 12:43:59.580  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/02/03 12:43:59.580  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/02/03 12:43:59.581  INFO: Connecting to UPBOARD_INT...
+2018/02/03 12:43:59.582  INFO: Connecting to SYSTEM_INT...
+2018/02/03 12:43:59.582  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/02/03 12:43:59.582  INFO: SYSTEM_INT Connection Success
+2018/02/03 12:43:59.628  INFO: UPBOARD_INT Connection Success
+2018/02/03 12:43:59.658  ERROR: UPBOARD_INT - Unknown 17 byte packet starting: 5002FD0000000000000000000000000000
+2018/02/03 12:43:59.664  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_12_43_59_tlm.bin
+2018/02/03 12:47:11.342  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_12_43_59_tlm.bin
+2018/02/03 12:47:11.346  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_03_12_47_11_tlm.bin
+2018/02/03 12:47:19.640  INFO: User disconnecting interface UPBOARD_INT
+2018/02/03 12:47:19.640  INFO: Killing thread for interface UPBOARD_INT
+2018/02/03 12:47:19.752  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/02/03 12:47:19.752  INFO: Connection Lost for UPBOARD_INT
+2018/02/03 12:47:19.752  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/03 12:47:19.753  INFO: Disconnected from interface UPBOARD_INT

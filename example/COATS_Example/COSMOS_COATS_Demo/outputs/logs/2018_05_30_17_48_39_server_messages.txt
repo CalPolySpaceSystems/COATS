@@ -1,0 +1,490 @@
+2018/05/30 17:48:37.089  INFO: COSMOS Version: 4.1.1
+2018/05/30 17:48:37.161  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/05/30 17:48:37.224  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/05/30 17:48:37.247  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/05/30 17:48:37.266  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/05/30 17:48:37.298  INFO: Marshal file does not exist: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_b8897e71f33dee42b46101cbb43fe909.bin
+2018/05/30 17:48:39.072  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/05/30 17:48:39.074  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/30 17:48:39.075  INFO: Creating thread for interface UPBOARD_INT
+2018/05/30 17:48:39.076  INFO: Creating thread for interface SYSTEM_INT
+2018/05/30 17:48:39.079  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/05/30 17:48:39.079  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/05/30 17:48:39.080  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/05/30 17:48:39.080  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/05/30 17:48:39.080  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/05/30 17:48:39.087  INFO: Starting packet reading for UPBOARD_INT
+2018/05/30 17:48:39.087  INFO: Connecting to UPBOARD_INT...
+2018/05/30 17:48:39.087  INFO: Starting packet reading for SYSTEM_INT
+2018/05/30 17:48:39.087  INFO: Connecting to SYSTEM_INT...
+2018/05/30 17:48:39.087  INFO: SYSTEM_INT Connection Success
+2018/05/30 17:48:39.097  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/05/30 17:48:39.147  INFO: UPBOARD_INT Connection Success
+2018/05/30 17:48:39.173  ERROR: UPBOARD_INT - Unknown 22 byte packet starting: 753C4B3DC3BE85EB71BEA0327E3FB01B563F72E1803E
+2018/05/30 17:48:39.178  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_05_30_17_48_39_tlm.bin
+2018/05/30 17:48:39.672  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:39.683  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:48:41.191  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:48:41.266  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:42.033  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:48:42.576  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:42.838  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:43.110  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:44.943  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:45.408  ERROR: UPBOARD IMU received with actual packet length of 52 but defined length of 43
+2018/05/30 17:48:45.473  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:47.055  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:47.378  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:47.595  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:47.855  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:48:48.371  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:48:48.643  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:49.170  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:49.454  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:49.697  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:50.252  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:50.528  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:51.583  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:52.332  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:53.149  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:48:53.424  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:53.686  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:53.958  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:54.490  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:55.772  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:56.022  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:57.372  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:57.578  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:48:57.910  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:48:58.948  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:59.210  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:48:59.496  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:00.266  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:01.075  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:01.595  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:02.390  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:05.555  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:06.339  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:06.884  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:07.416  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:08.194  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:49:08.466  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:08.707  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:08.974  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:09.234  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:09.777  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:10.031  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:10.834  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:11.084  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:11.601  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:12.160  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:13.248  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:13.996  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:14.530  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:19.271  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:20.598  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:22.440  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:23.260  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:23.481  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:24.021  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:24.293  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:24.579  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:25.069  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:25.874  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:27.495  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:27.714  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:29.050  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:29.831  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:30.183  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:31.680  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:31.967  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:32.484  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:32.738  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:33.572  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:34.868  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:35.373  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:35.637  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:36.178  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:37.250  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:38.555  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:39.599  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:40.329  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:49:40.384  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:40.396  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:49:40.864  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:49:40.908  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:40.919  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:49:41.736  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:42.784  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:43.823  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:44.628  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:45.422  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:47.786  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:48.093  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:49.398  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:50.170  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:52.273  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:52.586  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:53.056  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:53.338  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:53.583  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:54.120  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:55.442  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:49:56.502  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:56.753  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:57.565  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:57.823  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:58.353  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:49:59.670  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:00.196  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:00.787  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:01.534  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:02.038  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:04.945  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:05.233  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:05.470  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:07.308  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:08.142  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:09.472  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:09.693  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:09.957  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:11.019  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:13.143  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:13.659  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:14.202  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:15.526  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:15.761  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:17.083  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:17.602  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:18.164  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:18.408  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:19.222  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:19.735  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:20.000  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:20.273  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:20.510  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:21.077  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:21.566  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:22.647  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:22.919  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:23.443  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:23.724  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:24.015  ERROR: UPBOARD IMU received with actual packet length of 40 but defined length of 43
+2018/05/30 17:50:25.297  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:26.589  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:26.896  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:27.380  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:29.234  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:29.513  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:30.314  ERROR: UPBOARD BAROMETER received with actual packet length of 46 but defined length of 15
+2018/05/30 17:50:32.468  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:32.970  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:33.246  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:34.526  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:34.822  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:35.308  ERROR: UPBOARD IMU received with actual packet length of 39 but defined length of 43
+2018/05/30 17:50:36.406  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:37.435  ERROR: UPBOARD IMU received with actual packet length of 40 but defined length of 43
+2018/05/30 17:50:37.755  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:38.804  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:42.179  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:42.423  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:42.687  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:43.997  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:44.017  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:44.278  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:44.557  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:45.093  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:45.601  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:45.625  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:50:45.788  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:50:45.858  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:45.877  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:50:46.112  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:46.319  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:50:46.405  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:46.405  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:50:49.292  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:49.565  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:50.336  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:50.620  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:51.156  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:51.420  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:53.266  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:50:53.527  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:53.816  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:53.849  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:50:54.314  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:55.376  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:55.901  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:56.955  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:57.732  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:58.794  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:59.335  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:59.359  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:50:59.591  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:50:59.846  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:50:59.868  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:00.153  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:00.403  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:00.666  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:00.921  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:01.226  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:01.452  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:01.463  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:01.718  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:01.978  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:03.298  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:04.361  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:05.690  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:07.287  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:07.511  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:07.766  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:08.038  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:08.578  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:09.125  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:09.895  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:11.984  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:12.304  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:13.054  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:13.579  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:14.368  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:14.639  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:14.910  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:15.423  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:17.306  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:17.531  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:19.930  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:20.480  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:21.242  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:21.768  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:22.071  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:22.335  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:22.840  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:23.613  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:24.071  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:51:24.157  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:25.994  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:26.535  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:27.078  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:27.592  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:27.834  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:28.635  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:29.697  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:29.945  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:32.580  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:32.869  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:33.159  ERROR: UPBOARD BAROMETER received with actual packet length of 53 but defined length of 15
+2018/05/30 17:51:34.455  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:34.703  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:36.820  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:37.651  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:38.379  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:38.980  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:41.054  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:41.313  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:42.904  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:43.674  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:45.515  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:47.376  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:47.941  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:51.059  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:51.277  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:51:51.331  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:51:51.348  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:51.795  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:51:51.861  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:51.883  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:52.426  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:53.188  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:51:54.247  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:55.030  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:55.827  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:56.357  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:56.864  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:57.663  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:57.942  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:58.471  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:59.048  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:59.537  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:51:59.772  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:52:01.375  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:01.397  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:52:01.667  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:01.888  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:02.699  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:04.522  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:04.796  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:05.612  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:06.378  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:07.186  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:52:07.452  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:07.691  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:08.303  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:52:12.456  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:16.707  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:17.528  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:18.310  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:18.806  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:20.136  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:21.155  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:22.494  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:23.014  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:52:23.550  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:25.150  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:27.025  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:52:28.564  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:29.101  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:29.633  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:30.169  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:31.484  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:32.015  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:32.282  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:52:33.600  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:35.434  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:35.951  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:36.215  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:36.492  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:37.797  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:38.312  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:39.124  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:39.382  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:40.424  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:41.275  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:41.526  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:42.041  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:52:43.094  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:43.604  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:44.184  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:45.988  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:46.241  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:47.558  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:47.887  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:48.627  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:48.894  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:49.406  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:50.468  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:52:50.754  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:51.522  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:52.053  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:53.119  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:55.473  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:55.739  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:56.300  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:56.544  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:57.002  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:52:57.116  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:57.116  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:52:57.538  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:52:57.640  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:57.640  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:52:57.853  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:58.414  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:52:58.910  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:00.444  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:53:00.710  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:53:00.781  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:01.565  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:02.070  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:02.893  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:02.894  ERROR: UPBOARD GPS received with actual packet length of 15 but defined length of 16
+2018/05/30 17:53:03.670  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:05.559  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:05.779  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:07.364  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:07.619  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:08.692  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:08.944  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:09.797  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:10.273  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:10.814  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:11.025  ERROR: UPBOARD BAROMETER received with actual packet length of 14 but defined length of 15
+2018/05/30 17:53:11.346  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:11.586  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:11.875  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:12.146  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:12.644  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:12.930  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:13.232  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:13.461  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:14.769  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:15.043  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:15.296  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:15.846  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:16.353  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:16.876  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:17.918  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:18.217  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:20.026  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:21.904  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:22.156  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:22.696  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:23.461  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:24.303  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:24.537  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:25.596  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:26.395  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:26.909  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:27.469  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:27.687  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:27.955  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:30.392  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:30.613  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:31.129  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:31.650  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:31.907  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:32.181  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:32.709  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:34.224  ERROR: UPBOARD GPS received with actual packet length of 19 but defined length of 16
+2018/05/30 17:53:34.293  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:35.089  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:36.436  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:36.654  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:37.749  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:39.582  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:40.625  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:41.165  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:42.778  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:44.904  ERROR: UPBOARD IMU received with actual packet length of 41 but defined length of 43
+2018/05/30 17:53:45.432  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:45.729  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:47.494  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:48.021  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:48.854  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:49.630  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:50.725  ERROR: UPBOARD BAROMETER received with actual packet length of 45 but defined length of 15
+2018/05/30 17:53:51.773  ERROR: UPBOARD IMU received with actual packet length of 42 but defined length of 43
+2018/05/30 17:53:52.283  INFO: User disconnecting interface UPBOARD_INT
+2018/05/30 17:53:52.283  INFO: Killing thread for interface UPBOARD_INT
+2018/05/30 17:53:52.284  INFO: Stopped packet reading for UPBOARD_INT
+2018/05/30 17:53:52.391  INFO: Disconnected from interface UPBOARD_INT
+2018/05/30 18:00:45.605  INFO: User connecting interface UPBOARD_INT
+2018/05/30 18:00:45.606  INFO: Creating thread for interface UPBOARD_INT
+2018/05/30 18:00:45.608  INFO: Starting packet reading for UPBOARD_INT
+2018/05/30 18:00:45.608  INFO: Connecting to UPBOARD_INT...
+2018/05/30 18:00:45.624  INFO: UPBOARD_INT Connection Success
+2018/05/30 18:01:00.357  ERROR: UPBOARD_INT - Unknown 87 byte packet starting: 43313A2034303939330A0D0A43323A2033353638350A0D0A43333A2032363030300A0D0A
+2018/05/30 18:03:04.275  ERROR: UPBOARD_INT - Unknown 87 byte packet starting: 43313A2034303939330A0D0A43323A2033353638350A0D0A43333A2032363030300A0D0A
+2018/05/30 18:03:11.872  ERROR: UPBOARD_INT - Unknown 87 byte packet starting: 43313A2034303939330A0D0A43323A2033353638350A0D0A43333A2032363030300A0D0A
+2018/05/30 18:05:04.606  ERROR: UPBOARD_INT - Unknown 87 byte packet starting: 43313A2034303939330A0D0A43323A2033353638350A0D0A43333A2032363030300A0D0A
+2018/05/30 18:07:03.694  INFO: User disconnecting interface UPBOARD_INT
+2018/05/30 18:07:03.694  INFO: Killing thread for interface UPBOARD_INT
+2018/05/30 18:07:03.813  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/05/30 18:07:03.813  INFO: Connection Lost for UPBOARD_INT
+2018/05/30 18:07:03.813  INFO: Stopped packet reading for UPBOARD_INT
+2018/05/30 18:07:03.819  INFO: Disconnected from interface UPBOARD_INT
+2018/05/30 18:07:06.619  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_05_30_17_48_39_tlm.bin
+2018/05/30 18:07:06.619  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/05/30 18:07:06.619  INFO: Connection Lost for SYSTEM_INT
+2018/05/30 18:07:06.722  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/05/30 18:07:06.723  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/05/30 18:07:06.723  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/05/30 18:07:06.800  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/05/30 18:07:06.800  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/05/30 18:07:06.800  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/30 18:07:06.811  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/05/30 18:07:06.904  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/05/30 18:07:06.925  INFO: Disconnected from interface UPBOARD_INT
+2018/05/30 18:07:06.925  INFO: Killing thread for interface SYSTEM_INT
+2018/05/30 18:07:06.932  INFO: Stopped packet reading for SYSTEM_INT
+2018/05/30 18:07:06.937  INFO: Disconnected from interface SYSTEM_INT

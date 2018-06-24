@@ -1,0 +1,34 @@
+2018/02/02 23:27:50.157  INFO: COSMOS Version: 4.1.1
+2018/02/02 23:27:50.200  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/02/02 23:27:50.440  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/02/02 23:27:50.467  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/02/02 23:27:50.469  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/02/02 23:27:50.506  INFO: Marshal file does not exist: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/02/02 23:27:52.850  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/02/02 23:27:52.852  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/02/02 23:27:52.854  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/02/02 23:27:52.854  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/02/02 23:27:52.861  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/02/02 23:27:52.861  INFO: Creating thread for interface UPBOARD_INT
+2018/02/02 23:27:52.863  INFO: Creating thread for interface SYSTEM_INT
+2018/02/02 23:27:52.868  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/02/02 23:27:52.868  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/02/02 23:27:52.870  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/02/02 23:27:52.870  INFO: Starting packet reading for UPBOARD_INT
+2018/02/02 23:27:52.870  INFO: Connecting to UPBOARD_INT...
+2018/02/02 23:27:52.873  INFO: Starting packet reading for SYSTEM_INT
+2018/02/02 23:27:52.873  INFO: Connecting to SYSTEM_INT...
+2018/02/02 23:27:52.873  INFO: SYSTEM_INT Connection Success
+2018/02/02 23:27:52.927  INFO: UPBOARD_INT Connection Success
+2018/02/02 23:27:52.958  ERROR: UPBOARD_INT - Unknown 23 byte packet starting: 693FBE9F01F5BE666686BE30F0DC3E4EEEA73E73461CBF
+2018/02/02 23:27:52.970  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_02_02_23_27_52_tlm.bin
+2018/02/02 23:31:22.323  INFO: User disconnecting interface UPBOARD_INT
+2018/02/02 23:31:22.323  INFO: Killing thread for interface UPBOARD_INT
+2018/02/02 23:31:22.324  INFO: Stopped packet reading for UPBOARD_INT
+2018/02/02 23:31:22.432  INFO: Disconnected from interface UPBOARD_INT
+2018/02/02 23:31:27.395  INFO: User connecting interface UPBOARD_INT
+2018/02/02 23:31:27.396  INFO: Creating thread for interface UPBOARD_INT
+2018/02/02 23:31:27.396  INFO: Starting packet reading for UPBOARD_INT
+2018/02/02 23:31:27.396  INFO: Connecting to UPBOARD_INT...
+2018/02/02 23:31:27.414  INFO: UPBOARD_INT Connection Success
+2018/02/02 23:43:34.178  ERROR: UPBOARD GPS received with actual packet length of 59 but defined length of 16

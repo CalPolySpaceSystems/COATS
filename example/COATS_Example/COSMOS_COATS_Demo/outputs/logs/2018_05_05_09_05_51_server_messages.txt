@@ -1,0 +1,40 @@
+2018/05/05 09:05:49.256  INFO: COSMOS Version: 4.1.1
+2018/05/05 09:05:49.435  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/05/05 09:05:49.446  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/05/05 09:05:49.484  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/05/05 09:05:49.488  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/05/05 09:05:49.534  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_e873ed18b62c075eee668ee5fade6caa.bin
+2018/05/05 09:05:50.857  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/05/05 09:05:50.858  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:05:50.859  INFO: Creating thread for interface UPBOARD_INT
+2018/05/05 09:05:50.860  INFO: Creating thread for interface SYSTEM_INT
+2018/05/05 09:05:50.861  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/05/05 09:05:50.861  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/05/05 09:05:50.861  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/05/05 09:05:50.861  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:05:50.861  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/05/05 09:05:50.862  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/05/05 09:05:50.862  INFO: Starting packet reading for UPBOARD_INT
+2018/05/05 09:05:50.862  INFO: Connecting to UPBOARD_INT...
+2018/05/05 09:05:50.871  INFO: Starting packet reading for SYSTEM_INT
+2018/05/05 09:05:50.871  INFO: Connecting to SYSTEM_INT...
+2018/05/05 09:05:50.871  INFO: SYSTEM_INT Connection Success
+2018/05/05 09:05:50.912  INFO: UPBOARD_INT Connection Success
+2018/05/05 09:19:58.724  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/05/05 09:19:58.724  INFO: Connection Lost for SYSTEM_INT
+2018/05/05 09:19:58.825  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/05/05 09:19:58.825  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/05/05 09:19:58.825  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/05/05 09:19:58.927  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/05/05 09:19:58.937  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/05/05 09:19:58.937  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:19:58.945  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:19:59.027  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/05/05 09:19:59.048  INFO: Killing thread for interface UPBOARD_INT
+2018/05/05 09:19:59.173  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/05/05 09:19:59.173  INFO: Connection Lost for UPBOARD_INT
+2018/05/05 09:19:59.173  INFO: Stopped packet reading for UPBOARD_INT
+2018/05/05 09:19:59.173  INFO: Disconnected from interface UPBOARD_INT
+2018/05/05 09:19:59.173  INFO: Killing thread for interface SYSTEM_INT
+2018/05/05 09:19:59.183  INFO: Stopped packet reading for SYSTEM_INT
+2018/05/05 09:19:59.183  INFO: Disconnected from interface SYSTEM_INT

@@ -1,0 +1,19 @@
+# CPSS data viewer 12/24/2017
+# Shows data dumps for each of the packets defined in arduino_tlm.txt
+
+COMPONENT "GPS Data Status" arduino_dump_component.rb
+  PACKET ARDUINO GPS
+  
+COMPONENT "IMU status" arduino_dump_component.rb
+  PACKET ARDUINO IMU
+  
+COMPONENT "Barometer status" arduino_dump_component.rb
+  PACKET ARDUINO BAROMETER
+  
+COMPONENT "Pressure Taps Status" arduino_dump_component.rb
+  PACKET ARDUINO PRESSURE_TAPS
+  
+COMPONENT "Real Time Clock Status" arduino_dump_component.rb
+  PACKET ARDUINO RTC
+  
+
