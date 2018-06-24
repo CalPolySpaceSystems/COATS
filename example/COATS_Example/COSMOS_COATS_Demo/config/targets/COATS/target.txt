@@ -1,2 +1,5 @@
-# Requires for data dump methods
+# Required for ADC Conversion
+REQUIRE adc_voltage_conversion.rb
+
+# Required for data dump methods
 # REQUIRE coats_dump_component.rb

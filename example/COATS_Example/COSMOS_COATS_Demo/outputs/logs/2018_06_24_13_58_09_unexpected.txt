@@ -1,0 +1,10 @@
+Unexpected Output:
+
+2018/06/24 13:58:07.908  FATAL: Fatal Exception! Exiting...
+2018/06/24 13:58:07.908  FATAL: RuntimeError : Error binding to port 7777.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb.rb:167:in `rescue in block in start_service'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb.rb:130:in `block in start_service'

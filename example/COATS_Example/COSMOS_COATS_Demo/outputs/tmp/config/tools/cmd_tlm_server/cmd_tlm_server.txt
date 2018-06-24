@@ -13,3 +13,5 @@ PACKET_LOG_WRITER DEFAULT packet_log_writer.rb nil true nil 2000000000 nil false
 
 # Explicitly declare COATS interface
 INTERFACE_TARGET COATS cmd_tlm_server.txt # Use cmd_tlm_server.txt in targets\COATS
+
+BACKGROUND_TASK limits_groups.rb 5 # Initial delay to allow interfaces to connect

@@ -5,7 +5,7 @@
 
 //#define WORD_8BIT
 
-#define COUTNER_EN (1)
+#define COUNTER_EN (1)
 #define COUNTER_DIS (0)
 
 class coats

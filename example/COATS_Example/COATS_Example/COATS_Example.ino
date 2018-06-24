@@ -3,12 +3,12 @@
 #define ENDING 0x4350
 #define ADC_ID 42
 
-#define ptr_t uint8_t
+#define ptr_t uint32_t
 
 uint16_t adcData[6];
 
 /* Initialize class for the COATS telemetry */
-coats downlink = coats(ENDING,COUNTER_EN)
+coats downlink = coats(ENDING,COUNTER_EN);
 
 void setup() {
 
@@ -31,7 +31,7 @@ void loop() {
   }
 
   /* Send Packet */
-  downlink.serialWriteTlm();
+  downlink.serialWriteTlm(ADC_ID);
 
   delay(50);
 

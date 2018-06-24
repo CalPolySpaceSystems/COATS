@@ -1,0 +1,37 @@
+2018/06/24 13:41:30.645  INFO: COSMOS Version: 4.1.1
+2018/06/24 13:41:30.819  INFO: Processing target definition in file 'C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/target.txt'
+2018/06/24 13:41:31.007  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/06/24 13:41:31.043  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/cmd_tlm_server.txt
+2018/06/24 13:41:31.054  INFO: Marshal load success: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/tmp/marshal_a182f00a07116f888ba1bc9f96a2d87b.bin
+2018/06/24 13:41:31.054  ERROR: SYSTEM META not defined correctly due to Telemetry target 'SYSTEM' does not exist - defaulting
+2018/06/24 13:41:31.280  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/06/24 13:41:31.281  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/06/24 13:41:31.283  INFO: Creating thread for interface COATS_INT
+2018/06/24 13:41:31.285  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/06/24 13:41:31.285  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/06/24 13:41:31.285  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/06/24 13:41:31.285  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/06/24 13:41:31.285  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/06/24 13:41:31.286  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/06/24 13:41:31.286  INFO: Starting packet reading for COATS_INT
+2018/06/24 13:41:31.286  INFO: Connecting to COATS_INT...
+2018/06/24 13:41:31.291  INFO: COATS_INT Connection Success
+2018/06/24 13:41:31.313  ERROR: COATS_INT - Unknown 6 byte packet starting: D000D200EE00
+2018/06/24 13:41:31.320  INFO: Log File Opened : C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/logs/2018_06_24_13_41_31_tlm.bin
+2018/06/24 13:41:31.321  ERROR: COATS_INT - Unknown 7 byte packet starting: 00F200FD00EE00
+2018/06/24 13:45:48.405  ERROR: COATS ADC received with actual packet length of 1 but defined length of 15
+2018/06/24 13:45:48.416  ERROR: COATS_INT - Unknown 12 byte packet starting: C500CA00D100D400DF00C600
+2018/06/24 13:58:15.918  INFO: Log File Closed : C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/logs/2018_06_24_13_41_31_tlm.bin
+2018/06/24 13:58:16.018  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/06/24 13:58:16.018  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/06/24 13:58:16.018  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/06/24 13:58:16.094  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/06/24 13:58:16.105  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/06/24 13:58:16.105  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/06/24 13:58:16.106  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/06/24 13:58:16.190  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/06/24 13:58:16.201  INFO: Killing thread for interface COATS_INT
+2018/06/24 13:58:16.210  INFO: Clean disconnect from COATS_INT (returned nil)
+2018/06/24 13:58:16.210  INFO: Connection Lost for COATS_INT
+2018/06/24 13:58:16.210  INFO: Stopped packet reading for COATS_INT
+2018/06/24 13:58:16.212  INFO: Disconnected from interface COATS_INT

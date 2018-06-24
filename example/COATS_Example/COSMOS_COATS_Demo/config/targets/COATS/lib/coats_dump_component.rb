@@ -13,7 +13,7 @@ require 'cosmos/tools/data_viewer/data_viewer_component'
 
 module Cosmos
   # This class displays packets as raw hex values
-  class UpboardDumpComponent < DataViewerComponent
+  class CoatsDumpComponent < DataViewerComponent
 
     # Processes the given packet. No gui interaction should be done in this
     # method. Override this method for other components.
