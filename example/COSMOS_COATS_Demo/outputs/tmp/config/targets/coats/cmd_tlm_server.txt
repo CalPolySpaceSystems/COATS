@@ -1,5 +1,5 @@
 # This is a segment of the main cmd_tlm_server.txt that will be used with
 # AUTO_INTERFACE_TARGETS or INTERFACE_TARGET
 
-INTERFACE COATS_INT serial_interface.rb COM4 COM4 9800 NONE 1 10.0 nil TERMINATED 0x4350 0x4350
+INTERFACE COATS_INT serial_interface.rb COM10 COM10 115200 NONE 1 10.0 nil TERMINATED 0x4350 0x4350
   TARGET COATS

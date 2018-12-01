@@ -1,0 +1,33 @@
+2018/06/25 13:47:57.007  INFO: COSMOS Version: 4.1.1
+2018/06/25 13:47:57.032  INFO: Processing target definition in file 'C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/SYSTEM/target.txt'
+2018/06/25 13:47:57.217  INFO: Processing target definition in file 'C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/target.txt'
+2018/06/25 13:47:57.359  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/06/25 13:47:57.362  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/cmd_tlm_server.txt
+2018/06/25 13:47:57.397  INFO: Marshal load success: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/tmp/marshal_3b85e77f49ba1d59f30162726829fd3c.bin
+2018/06/25 13:47:57.612  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/06/25 13:47:57.613  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/06/25 13:47:57.613  INFO: Creating thread for interface COATS_INT
+2018/06/25 13:47:57.615  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/06/25 13:47:57.615  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/06/25 13:47:57.615  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/06/25 13:47:57.615  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/06/25 13:47:57.615  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/06/25 13:47:57.616  INFO: Starting packet reading for COATS_INT
+2018/06/25 13:47:57.616  INFO: Connecting to COATS_INT...
+2018/06/25 13:47:57.629  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/06/25 13:47:57.660  INFO: COATS_INT Connection Success
+2018/06/25 13:47:57.702  INFO: Log File Opened : C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/logs/2018_06_25_13_47_57_tlm.bin
+2018/06/25 13:52:58.827  INFO: Log File Closed : C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/logs/2018_06_25_13_47_57_tlm.bin
+2018/06/25 13:52:58.928  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/06/25 13:52:58.928  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/06/25 13:52:58.928  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/06/25 13:52:58.983  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/06/25 13:52:58.983  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/06/25 13:52:58.983  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/06/25 13:52:58.993  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/06/25 13:52:59.081  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/06/25 13:52:59.102  INFO: Killing thread for interface COATS_INT
+2018/06/25 13:52:59.110  INFO: Clean disconnect from COATS_INT (returned nil)
+2018/06/25 13:52:59.110  INFO: Connection Lost for COATS_INT
+2018/06/25 13:52:59.110  INFO: Stopped packet reading for COATS_INT
+2018/06/25 13:52:59.113  INFO: Disconnected from interface COATS_INT

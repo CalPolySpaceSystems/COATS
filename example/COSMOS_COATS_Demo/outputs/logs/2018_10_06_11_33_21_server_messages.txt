@@ -1,0 +1,46 @@
+2018/10/06 11:33:20.000  INFO: COSMOS Version: 4.1.1
+2018/10/06 11:33:20.166  INFO: Processing target definition in file 'C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/SYSTEM/target.txt'
+2018/10/06 11:33:20.366  INFO: Processing target definition in file 'C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/target.txt'
+2018/10/06 11:33:20.461  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/10/06 11:33:20.464  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/cmd_tlm_server.txt
+2018/10/06 11:33:20.514  INFO: Marshal load success: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/tmp/marshal_3b85e77f49ba1d59f30162726829fd3c.bin
+2018/10/06 11:33:20.624  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/10/06 11:33:20.625  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/10/06 11:33:20.625  INFO: Creating thread for interface COATS_INT
+2018/10/06 11:33:20.626  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/10/06 11:33:20.626  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/10/06 11:33:20.627  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/10/06 11:33:20.627  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/10/06 11:33:20.627  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/10/06 11:33:20.627  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/10/06 11:33:20.627  INFO: Starting packet reading for COATS_INT
+2018/10/06 11:33:20.628  INFO: Connecting to COATS_INT...
+2018/10/06 11:33:20.682  INFO: COATS_INT Connection Success
+2018/10/06 11:33:20.725  ERROR: COATS_INT - Unknown 21 byte packet starting: A1422E7115F82A44F441013E013F013F013E013C01
+2018/10/06 11:33:20.730  INFO: Log File Opened : C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/logs/2018_10_06_11_33_20_tlm.bin
+2018/10/06 11:36:24.878  INFO: User disconnecting interface COATS_INT
+2018/10/06 11:36:24.879  INFO: Killing thread for interface COATS_INT
+2018/10/06 11:36:24.889  INFO: Clean disconnect from COATS_INT (returned nil)
+2018/10/06 11:36:24.889  INFO: Connection Lost for COATS_INT
+2018/10/06 11:36:24.889  INFO: Stopped packet reading for COATS_INT
+2018/10/06 11:36:24.891  INFO: Disconnected from interface COATS_INT
+2018/10/06 11:36:27.300  INFO: User connecting interface COATS_INT
+2018/10/06 11:36:27.300  INFO: Creating thread for interface COATS_INT
+2018/10/06 11:36:27.303  INFO: Starting packet reading for COATS_INT
+2018/10/06 11:36:27.304  INFO: Connecting to COATS_INT...
+2018/10/06 11:36:27.321  INFO: COATS_INT Connection Success
+2018/10/06 12:52:53.388  ERROR: COATS_INT - Unknown 56 byte packet starting: 000000000000000000000000000000000000000000000000000000000000000000000000
+2018/10/06 13:38:40.796  INFO: Log File Closed : C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/logs/2018_10_06_11_33_20_tlm.bin
+2018/10/06 13:38:40.897  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/10/06 13:38:40.897  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/10/06 13:38:40.897  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/10/06 13:38:41.005  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/10/06 13:38:41.012  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/10/06 13:38:41.012  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/10/06 13:38:41.014  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/10/06 13:38:41.099  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/10/06 13:38:41.120  INFO: Killing thread for interface COATS_INT
+2018/10/06 13:38:41.129  INFO: Clean disconnect from COATS_INT (returned nil)
+2018/10/06 13:38:41.129  INFO: Connection Lost for COATS_INT
+2018/10/06 13:38:41.129  INFO: Stopped packet reading for COATS_INT
+2018/10/06 13:38:41.132  INFO: Disconnected from interface COATS_INT

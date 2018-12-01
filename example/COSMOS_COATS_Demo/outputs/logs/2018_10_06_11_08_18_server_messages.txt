@@ -1,0 +1,33 @@
+2018/10/06 11:08:17.264  INFO: COSMOS Version: 4.1.1
+2018/10/06 11:08:17.388  INFO: Processing target definition in file 'C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/SYSTEM/target.txt'
+2018/10/06 11:08:17.660  INFO: Processing target definition in file 'C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/target.txt'
+2018/10/06 11:08:17.722  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/10/06 11:08:17.725  INFO: Processing CmdTlmServer configuration in file: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/config/targets/COATS/cmd_tlm_server.txt
+2018/10/06 11:08:17.762  INFO: Marshal load success: C:/Users/Pat Chizek/Documents/GitHub/CPSS/COATS/example/COATS_Example/COSMOS_COATS_Demo/outputs/tmp/marshal_3b85e77f49ba1d59f30162726829fd3c.bin
+2018/10/06 11:08:17.877  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/10/06 11:08:17.878  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/10/06 11:08:17.878  INFO: Creating thread for interface COATS_INT
+2018/10/06 11:08:17.879  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/10/06 11:08:17.879  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/10/06 11:08:17.880  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/10/06 11:08:17.880  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/10/06 11:08:17.880  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/10/06 11:08:17.881  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/10/06 11:08:17.881  INFO: Starting packet reading for COATS_INT
+2018/10/06 11:08:17.881  INFO: Connecting to COATS_INT...
+2018/10/06 11:08:17.969  INFO: COATS_INT Connection Success
+2018/10/06 11:10:06.293  INFO: User disconnecting interface COATS_INT
+2018/10/06 11:10:06.293  INFO: Killing thread for interface COATS_INT
+2018/10/06 11:10:06.305  INFO: Clean disconnect from COATS_INT (returned nil)
+2018/10/06 11:10:06.305  INFO: Connection Lost for COATS_INT
+2018/10/06 11:10:06.305  INFO: Stopped packet reading for COATS_INT
+2018/10/06 11:10:06.306  INFO: Disconnected from interface COATS_INT
+2018/10/06 11:33:09.539  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/10/06 11:33:09.540  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/10/06 11:33:09.540  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/10/06 11:33:09.628  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/10/06 11:33:09.639  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/10/06 11:33:09.639  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/10/06 11:33:09.647  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/10/06 11:33:09.735  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/10/06 11:33:09.756  INFO: Disconnected from interface COATS_INT
