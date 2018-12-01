@@ -1,19 +1,19 @@
-// coats.h
+// cosmos.h
 
 #include "arduino.h"
 #include "HardwareSerial.h"
 
 //#define WORD_8BIT
 
-#define COUNTER_EN (1)
-#define COUNTER_DIS (0)
+#define CNT_ENABLE (1)
+#define CNT_DISABLE (0)
 
-class coats
+class cosmos
 {
   
 	public:
 	
-		coats(uint16_t ending, bool counterEnable);
+		cosmos(uint16_t ending, bool counterEnable);
 	
     /*
      *  UART Interface
@@ -42,7 +42,7 @@ class coats
 	private:
 
     /* Interfaces */
-    HardwareSerial* SerialCOATS;
+    HardwareSerial* SerialCOSMOS;
   
 		/* You can cut the memory space used in an 8-bit processor by defining "WORD_8BIT"*/
 		#ifdef WORD_8BIT
