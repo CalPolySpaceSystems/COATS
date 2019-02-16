@@ -23,7 +23,7 @@ void coats::serialInit(HardwareSerial& serialInst, long baud)
 void coats::serialWriteTlm(uint8_t id){
 
 	if (timerEnable) {
-		uint16_t rtc = (uint32_t)(millis());
+		uint32_t rtc = (uint32_t)(millis());
 		SerialCOATS->write(id);
 		SerialCOATS->write(rtc);
 		SerialCOATS->write(rtc >> 8);

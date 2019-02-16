@@ -27,8 +27,8 @@ void coats::serialWriteTlm(uint8_t id){
 		SerialCOATS->write(id);
 		SerialCOATS->write(rtc);
 		SerialCOATS->write(rtc >> 8);
-    SerialCOATS->write(rtc >> 16);
-    SerialCOATS->write(rtc >> 24);
+    	SerialCOATS->write(rtc >> 16);
+    	SerialCOATS->write(rtc >> 24);
 		SerialCOATS->write((byte *)packetPointers[id], packetSizes[id]);
 		SerialCOATS->write(endString >> 8);
 		SerialCOATS->write(endString); 
