@@ -14,56 +14,76 @@ coats::coats(uint16_t ending, bool counterEnable)
 
 void coats::serialInit(HardwareSerial& serialInst, long baud)
 {
-	
-	SerialCOATS = &serialInst;
-	SerialCOATS->begin(baud);
+	SerialCOATS._hw = (HardwareSerial*)&serialInst;
+	SerialCOATS._hw->begin(baud);
 	
 }
 
-void coats::serialWriteTlm(uint8_t id){
+void coats::serialInit(Serial_& serialInst, long baud)
+{
+  SerialCOATS._sw = (Serial_*)&serialInst;
+  SerialCOATS._sw->begin(baud);
+  
+}
+
+void coats::serialWriteTlm(HardwareSerial& serialInst, uint8_t id){
+
+  if (timerEnable) {
+    uint16_t rtc = (uint32_t)(millis());
+    SerialCOATS._hw->write(id);
+    SerialCOATS._hw->write(rtc);
+    SerialCOATS._hw->write(rtc >> 8);
+    SerialCOATS._hw->write(rtc >> 16);
+    SerialCOATS._hw->write(rtc >> 24);
+    SerialCOATS._hw->write((byte *)packetPointers[id], packetSizes[id]);
+    SerialCOATS._hw->write(endString >> 8);
+    SerialCOATS._hw->write(endString); 
+  }
+  
+  else{
+    SerialCOATS._hw->write(id);
+    SerialCOATS._hw->write((byte *)packetPointers[id], packetSizes[id]);
+    SerialCOATS._hw->write(endString >> 8);
+    SerialCOATS._hw->write(endString); 
+  }
+  
+}
+
+
+void coats::serialWriteTlm(Serial_& serialInst, uint8_t id){
 
 	if (timerEnable) {
 		uint16_t rtc = (uint32_t)(millis());
-		SerialCOATS->write(id);
-		SerialCOATS->write(rtc);
-		SerialCOATS->write(rtc >> 8);
-    	SerialCOATS->write(rtc >> 16);
-    	SerialCOATS->write(rtc >> 24);
-		SerialCOATS->write((byte *)packetPointers[id], packetSizes[id]);
-		SerialCOATS->write(endString >> 8);
-		SerialCOATS->write(endString); 
+		SerialCOATS._sw->write(id);
+		SerialCOATS._sw->write(rtc);
+		SerialCOATS._sw->write(rtc >> 8);
+    SerialCOATS._sw->write(rtc >> 16);
+    SerialCOATS._sw->write(rtc >> 24);
+		SerialCOATS._sw->write((byte *)packetPointers[id], packetSizes[id]);
+		SerialCOATS._sw->write(endString >> 8);
+		SerialCOATS._sw->write(endString); 
 	}
 	
 	else{
-		SerialCOATS->write(id);
-		SerialCOATS->write((byte *)packetPointers[id], packetSizes[id]);
-		SerialCOATS->write(endString >> 8);
-		SerialCOATS->write(endString); 
+		SerialCOATS._sw->write(id);
+		SerialCOATS._sw->write((byte *)packetPointers[id], packetSizes[id]);
+		SerialCOATS._sw->write(endString >> 8);
+		SerialCOATS._sw->write(endString); 
 	}
 	
 }
 
-/*
- *	SPI Interface
- */
- 
-/*
- *	I2C Interface
- */
-		 
-/*
- *	Other Functions
- */ 
-
-void coats::addTlm(uint8_t id, uint32_t * data, size_t dataSize){
+/* Adds a data structure */ 
+void coats::addTlm(uint8_t id, uint32_t * data){
 	
-	packetSizes[id] = dataSize;
+	packetSizes[id] = sizeof(*data);
+  SerialUSB.println(packetSizes[id]);
 	packetPointers[id] = data;
 
 }
-		 
-void coats::buildTlm(uint8_t id, String packet)
-{
+
+/* Outputs a packet as a string */
+void coats::buildTlm(uint8_t id, String packet){
 	size_t dataSize = packetSizes[id];
 	
 	if (timerEnable) {
@@ -93,4 +113,8 @@ void coats::buildTlm(uint8_t id, String packet)
 		packet[dataSize+2] = (endString); 
 	}
 
+}
+
+/* Generate checksum */
+uint8_t coats::xor_checksum(){
 }

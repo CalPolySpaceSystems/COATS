@@ -19,7 +19,7 @@ void setup() {
   downlink.addTlm(ADC_ID,(ptr_t*)adcData,sizeof(adcData));
 
   /* Initialize the serial interface, which also begins serial communication */
-  downlink.serialInit(Serial,9800);
+  downlink.serialInit(Serial,230400);
 
 }
 
@@ -33,6 +33,6 @@ void loop() {
   /* Send Packet */
   downlink.serialWriteTlm(ADC_ID);
 
-  delay(50);
+  delay(20);
 
 }

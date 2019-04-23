@@ -1,12 +1,12 @@
-// coats.h
+// cosmos.h
 
 #include "arduino.h"
 #include "HardwareSerial.h"
 
 //#define WORD_8BIT
 
-#define COUNTER_EN (1)
-#define COUNTER_DIS (0)
+#define CNT_ENABLE (1)
+#define CNT_DISABLE (0)
 
 class coats
 {
@@ -21,29 +21,27 @@ class coats
      
     void serialInit(HardwareSerial& serialInst,long baud);
     
-    void serialWriteTlm(uint8_t id);
+    void serialInit(Serial_& serialInst, long baud);
+
+    void serialWriteTlm(HardwareSerial& serialInst, uint8_t id);
+    void serialWriteTlm(Serial_& serialInst, uint8_t id);
 		
-		/*
-		 *	SPI Interface
-		 */
-		 
-		/*
-		 *	I2C Interface
-		 */
-		 
 		/*
 		 *	Other Functions
 		 */ 
 		 
-		void addTlm(uint8_t id, uint32_t* data, size_t dataSize);
+		void addTlm(uint8_t id, uint32_t* data);
 		 
 		void buildTlm(uint8_t id, String packet);
 		
 	private:
 
     /* Interfaces */
-    HardwareSerial* SerialCOATS;
-  
+    union{
+      HardwareSerial *_hw;
+      Serial_ *_sw;
+    }SerialCOATS;
+    
 		/* You can cut the memory space used in an 8-bit processor by defining "WORD_8BIT"*/
 		#ifdef WORD_8BIT
 		uint8_t 	*packetPointers[256];
